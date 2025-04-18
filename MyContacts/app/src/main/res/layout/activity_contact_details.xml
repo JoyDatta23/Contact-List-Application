@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactDetailsActivity"
+    android:background="@color/design_default_color_secondary">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Name"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewName"
+        android:layout_marginTop="8dp"
+        android:text="Email"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewHomePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewEmail"
+        android:layout_marginTop="8dp"
+        android:text="Home Phone"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textViewOfficePhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewHomePhone"
+        android:layout_marginTop="8dp"
+        android:text="Office Phone"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnEditContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewOfficePhone"
+        android:layout_marginTop="16dp"
+        android:text="Edit Contact"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnDeleteContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnEditContact"
+        android:layout_marginTop="8dp"
+        android:text="Delete Contact"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
